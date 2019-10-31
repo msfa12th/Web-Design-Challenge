@@ -13,12 +13,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body> 
     <div class="container">
-        <header>
+      <header>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
               <div class="navbar-header">
@@ -26,7 +25,7 @@
                 style="color: white;
                 background-color: rgb(11, 167, 167);
                 font-family: 'Times New Roman', Times, serif;
-                font-weight: bold;"  href="../index.html" > Latitude </a>
+                font-weight: bold;"  href="../index.html" > Lattitude </a>
               </div>
               <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
@@ -45,19 +44,31 @@
         </header>
         
         <section>
-
             <div class="row">
                 <div class="col">
-                <h1>Humidity vs Latitude</h1>
-                <p><img style="padding: 0 15px;float: left" src="../Resources/assets/images/Fig1.png" alt="Humidity vs Latitude" width="480" height="330"></p>
-                <p>This visualization shows that we experience the highest humidity near the equator (latitude=0).
-                    Also it shows that lowest humidity can be experienced the further north you go from the equator.
+                <h1>Humidity</h1>
+                <p><img style="padding: 0 15px;float: left" src="../Resources/assets/images/Fig2.png" alt="Humidity vs Latitude" width="480" height="330"></p>
+                <p>This visualization shows there is no correlation between humidity and latitude.
+                    We experience a range of humidity regardless of the latitude.
                 </p>
                 </div>
+            <div class="col">
+                    <h2>Visualizations</h2>
+                    <div class="row">
+                      <div class="column">
+                          <img src="../Resources/assets/images/Fig1.png" alt="Max Temperature" width="160" height="110"></p>
+                          <img src="../Resources/assets/images/Fig3.png" alt="Cloudiness" width="160" height="110"></p>
+    
+                      </div>
+                      <div class="column">
+                          <img src="../Resources/assets/images/Fig2.png" alt="Humidity" width="160" height="110"></p>
+                          <img src="../Resources/assets/images/Fig4.png" alt="Wind Speed" width="160" height="110"></p>
+                      </div>
+                    </div> 
+                </div>
             </div>
-
-    </section>
-            
-        </div>
-      </body>
+        </section>
+              
+     </div>
+   </body>
 </html>
