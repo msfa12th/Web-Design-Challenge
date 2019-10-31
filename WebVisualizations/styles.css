@@ -19,7 +19,11 @@ h2 {
   padding: 10px;
 }
 h3 {
-  font-size: 20px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold; 
+  color: rgb(11, 167, 167);
+  padding: 10px;
 }
 
 /* Giving our navbar some padding and a background color */
