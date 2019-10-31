@@ -28,15 +28,22 @@ h3 {
 
 /* Giving our navbar some padding and a background color */
 .navbar {
-  padding: 10px;
   background: white;
   font-family: 'Times New Roman', Times, serif;
 }
+.brand { 
+  color: white; 
+  background-color: rgb(11, 167, 167);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
 
+}
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
 .navbar li {
   display: inline-block;
-  padding: 20px;
+  padding: 0px;
   margin-right: 10px;
   margin-left: 10px;
   cursor: pointer;
@@ -51,15 +58,11 @@ h3 {
 }
 
 /* Styling the header, giving it a height, a background color, and some top padding */
-.header {
-/*  padding-top: 20px;*/
-  /* background: white; */
-}
 
 /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
 .header h1 {
- /* padding: 60px; */
-  /*margin: 0;*/
+  padding: 10px;
+  margin: 0;
   background: rgb(11, 167, 167);
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
@@ -68,14 +71,27 @@ h3 {
   vertical-align: middle;
 }
 .container h1 {
-  /* padding: 60px; */
-   /*margin: 0;*/
+  padding: 10px; 
+  margin: 0;
   font-size: 28px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold; 
   color: rgb(11, 167, 167);
-  padding: 10px;
  }
+ .container h2 {
+   font-size: 22px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold; 
+   color: rgb(11, 167, 167);
+   padding: 10px;
+ }
+ .container h3 {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold; 
+  color: rgb(11, 167, 167);
+  padding: 10px;
+}
 
 .indent-1 {
   float: left;

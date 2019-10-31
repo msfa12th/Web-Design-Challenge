@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Web Visualizations - Mary Brown</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" href="styles.css">
+  <title>Web Visualizations</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" 
-        style="color: white;
-        background-color: rgb(11, 167, 167);
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: bold;"  href="#" > Lattitude </a>
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <!-- Brand -->
+  <a class="brand navbar-brand" style="color: white;"  href="#" > Lattitude </a>
+
+  <!-- Links -->
+  <ul class="nav navbar-nav ml-auto">
+
+  <!-- Dropdown -->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Plots
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="visualizations/temperature.html">Max Temperature</a>
+          <a class="dropdown-item" href="visualizations/clouds.html">Cloudiness</a>
+          <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+          <a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a>
       </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="visualizations/temperature.html">Max Temperature</a></li>
-            <li><a href="visualizations/clouds.html">Cloudiness</a></li>
-            <li><a href="visualizations/humidity.html">Humidity</a></li>
-            <li><a href="visualizations/wind.html">Wind Speed</a></li>
-          </ul>
-        </li>
-      </ul>
-      <a href="visualizations/comparisons.html">Comparisons</a>
-      <a href="visualizations/data.html">Data</a>
-    </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" hhref="visualizations/comparisons.html">Comparisons</a>
+    </li>
+    <li class="nav-item">
+       <a class="nav-link" href="visualizations/data.html">Data</a>
+    </li>    
+  </ul>
   </nav>
 </header>
 <div class="container">
