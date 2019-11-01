@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Data - Mary Brown</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <!-- Brand -->
+            <a class="brand navbar-brand" style="color: white;"  href="../index.html"> Lattitude </a>
+        
+            <!-- Links -->
+            <ul class="nav navbar-nav ml-auto">
+        
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Plots
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="clouds.html">Cloudiness</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparisons.html">Comparisons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>    
+            </ul>
+        </nav>
+</header>
+        <div class="container" style="background-color: white; padding-top: 10px; margin-top: 40px;">
+          <section>
+          <div class="row">
+              <div class="col">
+                  <h1>Data</h1>
+                  <p>The raw data</p>
